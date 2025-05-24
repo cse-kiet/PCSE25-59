@@ -1,4 +1,4 @@
-# Title of Project: [PROJECT_TITLE_HERE]
+# Title of Project: Deep TrafficFlow: A Deep Learning Approach for Real-Time Traffic Monitoring and Congestion Reduction
 
 ## Team Members:
 1. Vikas Kumar
@@ -6,7 +6,7 @@
 
 ## Steps for Execution:
 1. Install All requirement libraries by using requirement.txt
-2. Run all models extension .ipyn to save all model
+2. Run all models extension .ipynb to save all model
 3. Run main apk.py and define the path in the code. 
    
 
