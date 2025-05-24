@@ -1,15 +1,14 @@
 # Title of Project: [PROJECT_TITLE_HERE]
 
 ## Team Members:
-1. [TEAM_MEMBER_1_NAME]
-2. [TEAM_MEMBER_2_NAME]
-3. [TEAM_MEMBER_3_NAME]
-4. [TEAM_MEMBER_4_NAME]
+1. Vikas Kumar
+2. Shreyansh Tiwari
 
 ## Steps for Execution:
-1. [STEP 1]
-2. [STEP 2]
-   (Add more steps as needed)
+1. Install All requirement libraries by using requirement.txt
+2. Run all models extension .ipyn to save all model
+3. Run main apk.py and define the path in the code. 
+   
 
 ## Checklist:
 1. Final Project Report
@@ -18,6 +17,5 @@
 4. Synopsis
 5. Final Presentation
 6. Source Code
-7. Database dump (.sql file)
-8. If a web project, then a Docker file for deployment
-9. README (This file)
+7. DataSet
+8. README (This file)
