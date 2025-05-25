@@ -58,7 +58,7 @@ PCSE25-59/
 │   ├── certificate_project_report.pdf  # Certificate signed by project guide
 │   ├── plag_report.pdf           # Plagiarism report
 │   └── Journal_documents/
-│       ├── ResearchPaper-2025.pdf      # Research paper for ICETISD-2025
+│       ├── ResearchPaper-2025.pdf      # Research paper for Journal Of Optics(SCI)
 │       ├── Presentation_certificate_Vikas_Kumar.pdf # Presentation certificate
 │       └── Deep_TrafficFlow_Presentation.pptx  # Conference presentation
 └── .gitignore                     # Git ignore file to exclude cache and secrets
@@ -144,7 +144,7 @@ Located in the documents/ folder:
 * synopsis.pdf: Project synopsis.
 * certificate_project_report.pdf: Certificate signed by project guide.
 * plag_report.pdf: Plagiarism report.
-* conference_documents/: Contains the research paper, presentation, and certificates related to ICETISD-2025.
+* conference_documents/: Contains the research paper, presentation, and certificates related to Journal Of Optics(SCI).
 
 ```
 
