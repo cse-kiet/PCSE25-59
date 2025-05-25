@@ -60,7 +60,7 @@ PCSE25-59/
 │   └── Journal_documents/
 │       ├── ResearchPaper-2025.pdf      # Research paper for Journal Of Optics(SCI)
 │       ├── Presentation_certificate_Vikas_Kumar.pdf # Presentation certificate
-│       └── Deep_TrafficFlow_Presentation.pptx  # Conference presentation
+│       └── Deep_TrafficFlow_Presentation.pptx  # Final presentation
 └── .gitignore                     # Git ignore file to exclude cache and secrets
 ```
 
