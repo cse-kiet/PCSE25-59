@@ -43,33 +43,24 @@ This project was developed as part of the Bachelor of Technology curriculum and 
 ---
 
 ### Project Structure
-
-
-PCSE25-53/
+PCSE25-59/
 ├── congestion_model/
-│   ├── fast_rcnn_model.h5           # Pretrained Fast R-CNN model
-│   ├── motion_tracking.py           # Path tracking using OpenCV
-│   ├── congestion_predictor.py      # ML model for congestion prediction
-│   ├── utils.py                     # Helper functions
-│   ├── requirements.txt             # Python dependencies
-│   └── traffic_video.mp4            # Sample video input
-├── web_app/                         # Optional Flask web deployment
-│   ├── app.py
-│   ├── templates/
-│   │   └── index.html
-│   └── static/
+│   ├── fast_rcnn_model.h5         # Pretrained Fast R-CNN model
+│   ├── motion_tracking.py         # Path tracking using OpenCV
+│   ├── congestion_predictor.py   # ML model for congestion prediction
+│   ├── utils.py                  # Helper functions
+│   ├── requirements.txt          # Python dependencies
+│   └── traffic_video.mp4         # Sample video input
 ├── documents/
-│   ├── project_report.pdf
-│   ├── synopsis.pdf
-│   ├── certificate_project_report.pdf
-│   ├── plag_report.pdf
-│   └── conference_documents/
-│       ├── ICETISD-2025.pdf
-│       ├── Presentation certificate Vikas Kumar.pdf
-│       └── Deep_TrafficFlow_Presentation.pptx
-└── .gitignore
-
-
+│   ├── project_report.pdf        # Complete project documentation
+│   ├── synopsis.pdf              # Project synopsis
+│   ├── certificate_project_report.pdf  # Certificate signed by project guide
+│   ├── plag_report.pdf           # Plagiarism report
+│   └── Journal_documents/
+│       ├── ResearchPaper-2025.pdf      # Research paper for ICETISD-2025
+│       ├── Presentation_certificate_Vikas_Kumar.pdf # Presentation certificate
+│       └── Deep_TrafficFlow_Presentation.pptx  # Conference presentation
+└── .gitignore                     # Git ignore file to exclude cache and secrets
 ---
 
 ### How It Works
@@ -96,15 +87,15 @@ PCSE25-53/
 
 *1. Clone the Repository*
 
-bash
 git clone https://github.com/cse-kiet/PCSE25-59.git
 cd PCSE25-59/congestion_model
 
 
+
 *2. Create a Virtual Environment (Recommended)*
 
-bash
 python -m venv venv
+
 # Activate environment
 # Windows
 venv\Scripts\activate
@@ -114,7 +105,7 @@ source venv/bin/activate
 
 *3. Install Dependencies*
 
-bash
+
 pip install -r requirements.txt
 
 
@@ -122,16 +113,16 @@ pip install -r requirements.txt
 
 To test the model on sample video:
 
-bash
+
 python car-object-detection.ipynb
 
 
 To predict congestion based on extracted features:
 
-bash
+
 python car-speed-detection-using-fastcnn.ipynb
 
-bash
+
 python car-video-path-tracking.ipynb
 
 To run the main app
