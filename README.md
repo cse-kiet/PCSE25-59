@@ -7,21 +7,24 @@
 
 
 *Project Guide:*
-*Mr. Rahul Kumar Sharma* (Associate Professor, CSE)
+*Mr. Rahul Kumar Sharma* (AAssistant Professor, CSE)
 
 ---
 
-## Deep TrafficFlow: Deep Learning-Based Real-Time Traffic Congestion Management
+## 🚦Deep TrafficFlow: Deep Learning-Based Real-Time Traffic Congestion Management
 
 ### Overview
 
 *Deep TrafficFlow* is an intelligent traffic monitoring and congestion prediction system built using deep learning and computer vision. The system leverages video footage to detect, classify, and track vehicles in real-time. Using a hybrid of Fast R-CNN and motion tracking, it provides accurate traffic flow analysis and congestion prediction with high precision.
 
-This project was developed as part of the Bachelor of Technology curriculum and has been presented at academic conferences.
+This project was developed as part of the Bachelor of Technology curriculum and has been presented at Journal Of Optics (Science Citation Index).
+
+![Journal Of Optics](https://media.springernature.com/w88/springer-static/cover-hires/journal/12596?as=webp) 
+<img src="https://lebaneselibraryassociation.org/wp-content/uploads/2021/05/springer-logo_image-LLA-1.png" alt="Springer Nature" height ="118" width="118">.
 
 ---
 
-### Core Technologies Used
+### 🛠️Core Technologies Used
 
 * *Fast R-CNN*: For vehicle detection and classification.
 * *OpenCV*: For video processing and motion-based vehicle tracking.
@@ -32,17 +35,17 @@ This project was developed as part of the Bachelor of Technology curriculum and 
 
 ---
 
-### Features
+### ✨Features
 
-* *Real-Time Vehicle Detection*: Detects vehicles using a trained Fast R-CNN model.
-* *Vehicle Classification*: Categorizes detected vehicles (e.g., car, bus, bike).
-* *Motion Path Tracking*: Tracks vehicle movements frame-by-frame for trajectory analysis.
-* *Congestion Prediction*: Utilizes traffic patterns and ML classifiers to predict congestion likelihood.
+* 🎯*Real-Time Vehicle Detection*: Detects vehicles using a trained Fast R-CNN model.
+*  🚗*Vehicle Classification*: Categorizes detected vehicles (e.g., car, bus, bike).
+* 📍*Motion Path Tracking*: Tracks vehicle movements frame-by-frame for trajectory analysis.
+* 🔮*Congestion Prediction*: Utilizes traffic patterns and ML classifiers to predict congestion likelihood.
 * *Analytics Dashboard*: Optional visualization of traffic metrics and predictions.
 
 ---
 
-### Project Structure
+### 📁Project Structure
 ```
 PCSE25-59/
 ├── congestion_model/
@@ -64,7 +67,7 @@ PCSE25-59/
 └── .gitignore                     # Git ignore file to exclude cache and secrets
 ```
 
-### How It Works
+### 🔄How It Works
 
 1. *Input*: Real-time or pre-recorded traffic footage.
 2. *Detection*: Fast R-CNN identifies vehicles frame-by-frame.
@@ -75,7 +78,7 @@ PCSE25-59/
 
 
 
-### Prerequisites
+### 📋Prerequisites
 
 * Python 3.10+
 * pip (Python package manager)
@@ -84,7 +87,7 @@ PCSE25-59/
 
 
 
-### Setup and Installation
+### 🚀Setup and Installation
 
 *1. Clone the Repository*
 ```
@@ -97,13 +100,13 @@ cd PCSE25-59/congestion_model
 ```
 python -m venv venv
 ```
-# Activate environment
-# Windows
+* Activate environment
+* Windows
 ```
 venv\Scripts\activate
 
 ```
-# macOS/Linux
+* macOS/Linux*
 ```
 source venv/bin/activate
 ```
@@ -136,7 +139,7 @@ python app.py
 ```
 
 
-### Included Documents
+### 📚Included Documents
 
 Located in the documents/ folder:
 
@@ -146,10 +149,10 @@ Located in the documents/ folder:
 * plag_report.pdf: Plagiarism report.
 * conference_documents/: Contains the research paper, presentation, and certificates related to Journal Of Optics(SCI).
 
-```
 
-### .gitignore
-```
+
+### 📝.gitignore
+
 Common Python cache files and secret environment configurations are excluded from version control.
 
 ```
