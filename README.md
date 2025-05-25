@@ -21,6 +21,9 @@ This project was developed as part of the Bachelor of Technology curriculum and 
 
 ![Journal Of Optics](https://media.springernature.com/w88/springer-static/cover-hires/journal/12596?as=webp) 
 <img src="https://lebaneselibraryassociation.org/wp-content/uploads/2021/05/springer-logo_image-LLA-1.png" alt="Springer Nature" height ="118" width="118">.
+<img src="https://www.eui.eu/Images/Research/Library/ResearchGuides/Economics/LogoShots/WoSlogo23.jpg" alt="Springer Nature" height ="118" width="118">.
+
+
 
 ---
 
