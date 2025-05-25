@@ -43,6 +43,7 @@ This project was developed as part of the Bachelor of Technology curriculum and 
 ---
 
 ### Project Structure
+```
 PCSE25-59/
 ├── congestion_model/
 │   ├── fast_rcnn_model.h5         # Pretrained Fast R-CNN model
@@ -61,7 +62,7 @@ PCSE25-59/
 │       ├── Presentation_certificate_Vikas_Kumar.pdf # Presentation certificate
 │       └── Deep_TrafficFlow_Presentation.pptx  # Conference presentation
 └── .gitignore                     # Git ignore file to exclude cache and secrets
----
+```
 
 ### How It Works
 
@@ -72,7 +73,7 @@ PCSE25-59/
 5. *Congestion Prediction*: Statistical and ML-based analysis of vehicle count, speed, and density is used to predict traffic congestion probability.
 6. *Output*: A congestion level is displayed or logged, optionally visualized via Flask UI.
 
----
+
 
 ### Prerequisites
 
@@ -81,57 +82,59 @@ PCSE25-59/
 * NVIDIA GPU (GTX 1650 or higher recommended for real-time inference)
 * Required Python libraries listed in requirements.txt
 
----
+
 
 ### Setup and Installation
 
 *1. Clone the Repository*
-
+```
 git clone https://github.com/cse-kiet/PCSE25-59.git
 cd PCSE25-59/congestion_model
-
+```
 
 
 *2. Create a Virtual Environment (Recommended)*
-
+```
 python -m venv venv
-
+```
 # Activate environment
 # Windows
+```
 venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
 
+```
+# macOS/Linux
+```
+source venv/bin/activate
+```
 
 *3. Install Dependencies*
 
-
+```
 pip install -r requirements.txt
-
+```
 
 *4. Run the System*
 
 To test the model on sample video:
 
-
+```
 python car-object-detection.ipynb
 
-
+```
 To predict congestion based on extracted features:
 
-
+```
 python car-speed-detection-using-fastcnn.ipynb
-
-
+```
+```
 python car-video-path-tracking.ipynb
-
+```
 To run the main app
+```
 python app.py
+```
 
-
-Visit http://localhost:5000 in your browser.
-
----
 
 ### Included Documents
 
@@ -143,17 +146,16 @@ Located in the documents/ folder:
 * plag_report.pdf: Plagiarism report.
 * conference_documents/: Contains the research paper, presentation, and certificates related to ICETISD-2025.
 
----
+```
 
 ### .gitignore
-
+```
 Common Python cache files and secret environment configurations are excluded from version control.
 
-
+```
 __pycache__/
 *.pyc
 venv/
 .env
 
-
----
+```
