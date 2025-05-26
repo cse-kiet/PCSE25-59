@@ -7,7 +7,7 @@
 
 
 *Project Guide:*
-*Mr. Rahul Kumar Sharma* (AAssistant Professor, CSE)
+*Mr. Rahul Kumar Sharma* (Assistant Professor, CSE)
 
 ---
 
