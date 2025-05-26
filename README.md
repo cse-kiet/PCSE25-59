@@ -125,17 +125,15 @@ pip install -r requirements.txt
 To test the model on sample video:
 
 ```
-python car-object-detection.ipynb
+python tracking_vehicles.ipynb
 
 ```
-To predict congestion based on extracted features:
+To predict congestion based on counting:
 
 ```
-python car-speed-detection-using-fastcnn.ipynb
+python Traffic Prediction.ipynb
 ```
-```
-python car-video-path-tracking.ipynb
-```
+
 To run the main app
 ```
 python app.py
